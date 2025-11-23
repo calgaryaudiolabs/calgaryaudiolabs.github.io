@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calgary Audio Labs - Independent audio engineering group and plugin makers based in Calgary.">
+    <title>Calgary Audio Labs | Professional Audio Plugins</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">Calgary Audio Labs</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#plugins">Plugins</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Precision Audio Engineering</h1>
+            <p>Empowering artists to create and distribute their own signature plugins.</p>
+            <a href="#plugins" class="btn">Explore Our Plugins</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Who We Are</h2>
+            <p>
+                Calgary Audio Labs is an independent audio engineering group based in Calgary, Alberta.
+                We are a collective of passionate developers and sound engineers dedicated to pushing the boundaries of digital audio processing.
+            </p>
+            <p>
+                Our mission is to democratize plugin creation. We help artists design, build, and distribute their own signature plugins,
+                bridging the gap between creative vision and technical reality.
+            </p>
+        </div>
+    </section>
+
+    <section id="plugins" class="plugins">
+        <div class="container">
+            <h2>Our Plugins</h2>
+            <div class="plugin-grid">
+
+                <!-- FDNR Plugin Card -->
+                <div class="plugin-card">
+                    <div class="plugin-image">
+                        <img src="https://raw.githubusercontent.com/calgaryaudiolabs/fdnr-vst3/main/docs/screenshot.png" alt="FDNR Plugin Interface">
+                    </div>
+                    <div class="plugin-info">
+                        <h3>FDNR Reverb</h3>
+                        <p class="tagline">Feedback Delay Network Reverberator</p>
+                        <p>An open-source, modular reverb engine inspired by classic hardware units. Features 21 unique algorithms, deep modulation capabilities, and a modular DSP chain for crafting lush spaces and experimental textures.</p>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> 21 Unique Reverb Modes</li>
+                            <li><i class="fas fa-check"></i> Deep Modulation & Warp Control</li>
+                            <li><i class="fas fa-check"></i> VST3 Compatible</li>
+                        </ul>
+                        <a href="https://github.com/calgaryaudiolabs/fdnr-vst3" class="btn-outline" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- PresetEngine Plugin Card -->
+                <div class="plugin-card">
+                    <div class="plugin-image placeholder-image">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="plugin-info">
+                        <h3>PresetEngine</h3>
+                        <p class="tagline">Declarative Modular Multi-Effect</p>
+                        <p>A revolutionary text-driven plugin that allows you to define complex audio processing chains and custom user interfaces via YAML or JSON. Bridge the gap between DSP coding and rapid prototyping.</p>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Text-to-DSP Configuration</li>
+                            <li><i class="fas fa-check"></i> Dynamic UI Generation</li>
+                            <li><i class="fas fa-check"></i> Python & Go SDKs</li>
+                        </ul>
+                        <a href="https://github.com/calgaryaudiolabs/presetengine-vst3" class="btn-outline" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Calgary Audio Labs</h3>
+                    <p>Independent Audio Engineering Group</p>
+                    <p>Based in Calgary, AB</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/calgaryaudiolabs" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Calgary Audio Labs. All rights reserved.
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
